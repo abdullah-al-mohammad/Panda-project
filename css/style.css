@@ -1,0 +1,33 @@
+/* global */
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.d-flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-even{
+    justify-content: space-evenly;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(60, 130, 209);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn img{
+    width: 14px;
+    height: 14px;
+}
+/* main */
+#main-img{
+    width: 400px;
+}
