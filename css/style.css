@@ -13,9 +13,15 @@
 .justify-even{
     justify-content: space-evenly;
 }
+.justify-between{
+    justify-content: space-between;
+}
+.content-center{
+    text-align: center;
+}
 .btn{
-    margin: 10px;
-    padding: 10px;
+    margin: 10 0px;
+    padding: 10px 20px;
     background-color: rgb(60, 130, 209);
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -28,7 +34,21 @@
     width: 14px;
     height: 14px;
 }
-/* main */
+/* banner */
 #main-img{
     width: 400px;
+}
+.banner-color{
+    background-color: rgb(202, 197, 189);
+}
+/* card */
+.card-cs{
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
