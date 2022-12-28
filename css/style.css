@@ -37,6 +37,32 @@
     width: 14px;
     height: 14px;
 }
+/* header part */
+header{
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin: auto 1px;
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 500px;
+}
+/* name & logo */
+.company{
+    padding-left: 35px;
+    float: left;
+}
+.company img{
+    display: block;
+    float: left;
+    width: 50px;
+}
+/* main menu */
+#home{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* banner */
 #main-img{
     width: 400px;
@@ -58,7 +84,7 @@
 /* shopping card */
 .shopping-card{
     background-color: antiquewhite;
-    padding: -30 10px;
+    padding: -3git0 10px;
     border-color: black;
     border-radius: 5px;
     margin: 10px 10px;
