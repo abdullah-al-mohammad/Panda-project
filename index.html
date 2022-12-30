@@ -15,12 +15,12 @@
             <h2>penguin fashion</h2>
         </div>
         <!-- menu button -->
-        <nav>
-            <ul>
+        <nav class="">
+            <ul class="d-flex justify-even">
                 <li><a class="btn" href="#home">Home</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">contact Us</a></li>
+                <li><a class="btn" href="#product">Product</a></li>
+                <li><a class="btn" href="#About">About Us</a></li>
+                <li><a class="btn" href="#contact">contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -44,7 +44,7 @@
         <!-- card section -->
         <section class="container">
             <h1>CASUALSHOES</h1>
-            <div class="d-flex justify-even">
+            <div class="d-flex justify-between">
                 <div class="card-cs">
                     <img src="./images/nike 1.jpg" alt="nike 1" sizes="" srcset="">
                     <h1>NIKE SHOE</h1>
@@ -82,7 +82,7 @@
         </section>
         <section class="container">
             <h1>FORMAL SHOE</h1>
-            <div class="d-flex justify-even">
+            <div class="d-flex justify-between">
                 <div class="card-cs">
                     <img src="./images/formal shoe 1.jpg" alt="shoe">
                     <h2>Prestige High-Cut Leather</h2>
@@ -120,24 +120,32 @@
         </section>
         <!-- shopping -->
         <section class="container">
-                <div class="d-flex">
-                    <div class="shopping-card">
-                        <img src="" alt="">
-                        <h2>Find The Perfect Fit</h2>
-                        <p>Everybody is different ,Which is why we offer styles for everybody</p>
+            <div class="d-flex justify-between mb">
+                <div class="shopping">
+                    <div class="d-flex shopping-card">
+                        <img src="./images/house.png" alt="">
+                        <div class="P-2">
+                            <h2>Find The Perfect Fit</h2>
+                            <p>Everybody is different ,Which is why we offer styles for everybody</p>
+                        </div>
                     </div>
-                    <div class="shopping-card">
-                        <img src="" alt="">
-                        <h2>Free Exchanges</h2>
-                        <p>One of the many reasons you can shop with peace of mind</p>
+                    <div class="d-flex shopping-card">
+                        <img src="./images/box.png" alt="">
+                        <div class="P-2">
+                            <h2>Free Exchanges</h2>
+                            <p>One of the many reasons you can shop with peace of mind</p>
+                        </div>
                     </div>
-                    <div class="shopping-card">
-                        <img src="" alt="">
-                        <h2>Contact Our Seller</h2>
-                        <p>They are here to help you.thats quite literally what we pay them for</p>
+                    <div class="d-flex shopping-card">
+                        <img src="./images/question.png" alt="">
+                        <div class="P-2">
+                            <h2>Contact Our Seller</h2>
+                            <p>They are here to help you.thats quite literally what we pay them for</p>
+                        </div>
                     </div>
-                    <img src="./images/shopping.png" alt="">
                 </div>
+                <img id="footerTopImg" src="./images/shopping.png" alt="">
+            </div>
         </section>
     </main>
     <footer></footer>
