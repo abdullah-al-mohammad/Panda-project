@@ -1,4 +1,7 @@
 /* global */
+*{
+    margin: 0;
+}
 .container{
     width: 1200px;
     margin-left: auto;
@@ -53,7 +56,6 @@ header{
     width: 100%;
     position: fixed;
     overflow: hidden;
-    z-index: 300px;
 }
 /* name & logo */
 .company{
@@ -69,6 +71,7 @@ header{
 /* menu button*/
 nav{
     float: right;
+    padding-top: 10px;
 }
 ul a{
     text-decoration: none;
